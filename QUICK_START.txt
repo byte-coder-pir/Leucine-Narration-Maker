@@ -1,0 +1,10 @@
+QUICK START GUIDE
+=================
+
+1. Install Node.js (https://nodejs.org) if you haven't already.
+2. Unzip this folder.
+3. Open a terminal/command prompt in this folder.
+4. Run: npm install
+5. Run: npm run dev
+
+For detailed instructions, see README.md.
