@@ -24,6 +24,7 @@ Before running this project, ensure you have the following installed:
 
 1. **Node.js** (version 16 or higher)
    - [Download Node.js](https://nodejs.org/)
+   - **Important**: During installation, ensure the **"Add to PATH"** option is checked.
 2. **A modern web browser** (Chrome, Edge, Firefox, or Safari)
 
 ## Installation & Setup
@@ -105,6 +106,17 @@ npm run preview
 - **PapaParse**: CSV Generation
 - **SheetJS (XLSX)**: Excel Export
 - **JSZip**: Archive Processing
+
+## Troubleshooting
+
+### Common Issues
+
+**PowerShell: "Script is not signed" or execution policy errors**
+If you face issues running commands in Windows PowerShell, you may need to update your execution policy. Run the following command in PowerShell:
+
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
 
 ## License
 
