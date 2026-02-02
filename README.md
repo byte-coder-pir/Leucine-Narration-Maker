@@ -84,19 +84,7 @@ The tool organizes extracted data into the following columns:
 | **Validations** | Input rules, error messages, and exception types |
 | **Automation Details** | Triggers, actions, and mapping details |
 
-## Building for Production
 
-To create a production-ready build for deployment:
-
-```bash
-npm run build
-```
-
-The optimized files will be generated in the `dist` folder. You can test the production build locally using:
-
-```bash
-npm run preview
-```
 
 ## Technologies Used
 
